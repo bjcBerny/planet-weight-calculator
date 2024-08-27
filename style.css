@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  height: 100vh;
+  background-image: url("./assets/tim-bernhard-koglIkZ8jBI-unsplash_1_75.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  color: #ffffff;
+  font-family: Verdana;
+  font-weight: lighter;
+}
+
+.container {
+  width: 90vw;
+  height: 70vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffffff;  
+  opacity: 0.7;  
+}
+
+.row {
+  text-align: center;    
+}
+
+#btnCalc {
+    height: 25px;
+    padding: 0 20px;
+    margin-left: 10px;
+    background: #251c68;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btnCalc:hover {
+    background: #0092a2;
+}
+
+#txtKg{
+    min-width: 250px;
+    font-size: 16px;    
+}
+
+#planetsSlt, #txtKg, #btnCalc{
+    height: 40px;
+} 
+
+.result {
+  width: 90%;
+  background-color: #ffffff;
+  opacity: 0.9;  
+  color: #000;  
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 45px;
+}
