@@ -33,4 +33,4 @@ La aplicación permite al usuario ingresar la masa de un objeto en kilogramos y 
 4. El peso del objeto en el planeta seleccionado se mostrará en la sección de resultados.
 
 ## Web:
-[web calculadora de peso]()
+[web calculadora de peso](https://bjcberny.github.io/planet-weight-calculator/)
